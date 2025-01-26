@@ -38,24 +38,5 @@ a {
     .container {  
         flex-direction: column;  
     }  
-} 
-
-.about {  
-    display: flex;  
-    flex-wrap:wrap;  
-}  
-
-.aboutme {  
-    flex: 2;  
-    padding: 10px;
-    
-  
-}  
-
-.home {  
-    flex:1;  
-    padding: 10px; 
-    justify-content:end; 
-    align-items 
-
 }
+
