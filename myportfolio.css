@@ -1,0 +1,32 @@
+header {
+    text-align: center; 
+    font-size: 30px;
+    color:rgb(82, 7, 7);
+}
+
+.contact{
+    color: #3f81fd;
+}
+
+ul{
+font-size: large;
+
+}
+
+h2 {
+    color: rgb(82, 7, 7);
+}
+body {
+    background-color: #efcfd4;
+    color: #333;
+}
+input{
+color: rgb(82, 7, 7);
+}
+
+hr{
+    color: rgb(82, 7, 7);
+    background-color:    #efcfd4;
+    ;
+}
+
