@@ -6,11 +6,38 @@ body {
 
 h1 {  
     color: #15223b;  
+    text-align: center;
+    font-family: "Dancing Script", cursive ;
+    font-size: 70px;
+    margin: 0px;
 }  
 
-ul {  
-    color: #15223b;  
-}  
+.top {
+    display: flex; /* to make HOME and ABOUT a flexible box */
+    flex-direction: row; 
+    justify-content: space-between; /* to mak them space out from one end to the other */
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.aboutme {
+    color: #333;
+
+}
+
+.aboutme:hover {
+    color: rgb(82, 7, 7);
+   font-size: large;
+   text-decoration: none;
+}
+
+.bio {
+    text-align: center;
+    padding: 10px;
+    
+}
+
 
 a {  
     color: #ff8295;  
@@ -18,9 +45,70 @@ a {
     padding-top: 20px; 
 }  
 
+
+.pictures {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: flex-end;
+    flex-wrap: nowrap ;
+}
+
+.picture1 {  
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-self: center;
+    padding: 10px;
+}
+
+
+.picture2 {  
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-self: center;
+    padding: 10px;
+}
+
+.picture3 {  
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-self: center;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Dancing Script", cursive ;
+}
+
+.bookme {
+    padding: 0px;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.portfolio {
+    color: #15223b;
+    padding-left: 70px;
+    padding-top: 10px;
+
+}
+
+.portfolio:hover {
+    text-decoration: underline;
+}
+
 .container {  
     display: flex;  
-    flex-wrap:wrap;  
+    flex-wrap:wrap; 
+    background-color: #15223b; 
+    padding: 50px;
+    color: #efcfd4;
 }  
 
 .content {  
@@ -40,10 +128,36 @@ a {
     }  
 } 
 
-.art-picture {  
-    width: 500px;  
-    height: 500px; 
-    display: flex;
-    align-self: center;
+
+
+
+header {
+    text-align: center; 
+    font-size: 30px;
+    color:rgb(82, 7, 7);
 }
+
+.contact{
+    color: #3f81fd;
+}
+
+ul{
+font-size: large;
+
+}
+
+h2 {
+    color: rgb(82, 7, 7);
+}
+
+input{
+color: rgb(82, 7, 7);
+}
+
+hr{
+    color: rgb(82, 7, 7);
+    background-color:    #efcfd4;
+    
+}
+
 
