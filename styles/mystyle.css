@@ -81,11 +81,14 @@ color: #ff8295;    margin-bottom: 0px;
     flex-direction: column;
     align-items: center;
     background-color:#15223b
+
     
 }
 
 ul{
-color: #efcfd4;}
+color: #efcfd4;
+font-family: Arial, sans-serif;  
+}
 
 .portfolio {
     color: #15223b;
@@ -106,16 +109,7 @@ color: #efcfd4;}
     color: #efcfd4;
 }  
 
-.content {  
-    flex: 2;  
-    padding: 10px;  
-}  
 
-.sidebar {  
-    flex: 1;  
-    padding: 10px;  
-    
-}  
 
 @media (max-width: 600px) {  
     .container {  
@@ -128,20 +122,22 @@ color: #efcfd4;}
 
 
 
+
 .contact{
-    color: #3f81fd;
+    background-color: #15223b;
 }
 
 
 
 input{
-color: rgb(82, 7, 7);
+padding: 5px;
 }
 
 hr{
-    color: rgb(82, 7, 7);
     background-color:    #efcfd4;
     
 }
+
+
 
 
