@@ -102,12 +102,16 @@ color: #fcf5eb;
 font-family: Arial, sans-serif;  
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
 .instagram {
     height: 50px;
     width: 50px;
     background-color: #fcf5eb;
-    display: flex;
-    justify-content: center;
+    
 }
 
 
