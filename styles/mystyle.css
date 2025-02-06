@@ -1,11 +1,11 @@
 body {  
     font-family: Arial, sans-serif;  
-    background-color: #efcfd4;  
+    background-color: #fcf5eb;  
     color: #333;  
 }  
 
 h1 {  
-    color: #15223b;  
+    color: #3e2b25;  
     text-align: center;
     font-family: "Dancing Script", cursive ;
     font-size: 70px;
@@ -27,7 +27,7 @@ h1 {
 }
 
 .about-me:hover {
-    color: rgb(82, 7, 7);
+    color: #3e2b25;
    font-size: large;
    text-decoration: none;
 }
@@ -64,13 +64,25 @@ h1 {
     padding: 10px;
 }
 
+.portfolio {
+    color: #3e2b25;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+
+.portfolio:hover {
+    text-decoration: underline;
+}
 
 
 
 h2 {
     font-family: "Dancing Script", cursive ;
     font-size: 70px;
-color: #ff8295;    margin-bottom: 0px;
+color: #fcf5eb;  
+  margin-bottom: 0px;
     margin-top: 10px;
 }
 
@@ -80,34 +92,24 @@ color: #ff8295;    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#15223b
+    background-color:#3e2b25
 
     
 }
 
 ul{
-color: #efcfd4;
+color: #fcf5eb;
 font-family: Arial, sans-serif;  
 }
 
-.portfolio {
-    color: #15223b;
-    padding-left: 70px;
-    padding-top: 10px;
-
+.instagram {
+    height: 50px;
+    width: 50px;
+    background-color: #fcf5eb;
+    display: flex;
+    justify-content: center;
 }
 
-.portfolio:hover {
-    text-decoration: underline;
-}
-
-.container {  
-    display: flex;  
-    flex-wrap:wrap; 
-    background-color: #15223b; 
-    padding: 50px;
-    color: #efcfd4;
-}  
 
 
 
@@ -124,7 +126,7 @@ font-family: Arial, sans-serif;
 
 
 .contact{
-    background-color: #15223b;
+    background-color: #3e2b25;
 }
 
 
@@ -133,10 +135,8 @@ input{
 padding: 5px;
 }
 
-hr{
-    background-color:    #efcfd4;
-    
-}
+
+
 
 
 
